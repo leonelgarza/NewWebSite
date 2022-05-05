@@ -22,7 +22,7 @@ nav{
     justify-content: space-between;
 }
 ul{
-    width: 500px;
+    width: 800px;
     display: flex;
     list-style-type: none;
     justify-content: space-around;
@@ -163,7 +163,6 @@ a{
         display: none;
     }
 }
-
 .company-logo {
     max-width: 100px;
 
@@ -173,5 +172,6 @@ a{
     height: 650px;
     box-shadow: 5px 5px 20px gray;
     margin: 10px;
+    padding: 10px;
 
 }
