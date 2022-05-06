@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="src/styles.css"/>
+        <link rel="stylesheet" href="src/css/styles.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;600;700;800&display=swap" rel="stylesheet">
         <link rel="icon" type="image/png" href="src/images/LogoBlack.png">
         <title>Portfolio Leonel Garza</title>
+        <link rel="stylesheet" href="src/css/lightbox.css">
+        <script type="text/javascript" src="src/js/jquery.js"></script>
+        <script type="text/javascript" src="src/js/lightbox.min.js"></script>
+        <script type="text/javascript" src="src/js/declarativeToggle.js"></script>
         <meta charset="UTF-8"/>
     </head>
     <body>
@@ -17,6 +21,7 @@
                     <li><a href="#about-me">About me</a></li>
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#projects">Projects</a></li>
+                    <li><a href="#crtificates">Crtificates</a></li>
                     <li><a href="#contact">Contact Me</a></li>
                 </ul>
             </nav>
@@ -134,53 +139,71 @@
                 </div>
             </div>
         </section>
-        <section class="sub-section2" id="certs">
+        <section class="sub-section2" id="crtificates">
             <h2>Crtificates</h2>
             <p>UDEMY Crtificates</p>
             <h3>Related to Technology and Engineering</h3>
             <div class="cert-container">
                 <div class="certCard">
-                    <img class="cert-image" src="src/images/certs/UC-b7c3149e-2748-492b-949f-1387ea834a41.jpg" alt="Scrum Master Prep."/>
+                    <a href="src/images/certs/UC-b7c3149e-2748-492b-949f-1387ea834a41.jpg" data-lightbox="gallery" data-title="APR 2022 - Scrum for Beginners + Scrum Master Certification Preparation">
+                        <img class="cert-image" src="src/images/certs/UC-b7c3149e-2748-492b-949f-1387ea834a41.jpg" alt="Scrum Master Prep."/>
+                    </a>
                     <hr/>
                     <h3>APR 2022 - Scrum for Beginners + Scrum Master Certification Preparation</h3>
                 </div>
                 <div class="certCard">
-                    <img class="cert-image" src="src/images/certs/UC-214a9882-d123-4aa9-aa3a-6106a34f5917.jpg" alt="Web Design HTML + CSS"/>
+                    <a href="src/images/certs/UC-214a9882-d123-4aa9-aa3a-6106a34f5917.jpg" data-lightbox="gallery" data-title="MAR 2022 - Web Design for Beginners: Real World Coding in HTML & CSS">
+                        <img class="cert-image" src="src/images/certs/UC-214a9882-d123-4aa9-aa3a-6106a34f5917.jpg" alt="Web Design HTML + CSS"/>
+                    </a>
                     <hr/>
                     <h3>MAR 2022 - Web Design for Beginners: Real World Coding in HTML & CSS</h3>
                 </div>
                 <div class="certCard">
-                    <img class="cert-image" src="src/images/certs/UC-6a124304-210e-474f-aa79-7951c42dcfad.jpg" alt="NodeJs Course"/>
+                    <a href="src/images/certs/UC-6a124304-210e-474f-aa79-7951c42dcfad.jpg" data-lightbox="gallery" data-title="MAR 2022 - The Complete Node.js Developer Course (3rd Edition)">
+                        <img class="cert-image" src="src/images/certs/UC-6a124304-210e-474f-aa79-7951c42dcfad.jpg" alt="NodeJs Course"/>
+                    </a>
                     <hr/>
                     <h3>MAR 2022 - The Complete Node.js Developer Course (3rd Edition)</h3>
                 </div>
                 <div class="certCard">
-                    <img class="cert-image" src="src/images/certs/UC-e7ef4c44-8734-458f-942e-74cce0dfd5d3.jpg" alt="PCB Orcad"/>
+                    <a href="src/images/certs/UC-e7ef4c44-8734-458f-942e-74cce0dfd5d3.jpg" data-lightbox="gallery" data-title="NOV 2021 - PCB Designing in Orcad 17.2">
+                        <img class="cert-image" src="src/images/certs/UC-e7ef4c44-8734-458f-942e-74cce0dfd5d3.jpg" alt="PCB Orcad"/>
+                    </a>
                     <hr/>
                     <h3>NOV 2021 - PCB Designing in Orcad 17.2</h3>
                 </div>
                 <div class="certCard">
-                    <img class="cert-image" src="src/images/certs/UC-f9932a33-81a1-4412-b7fe-16c4bdb0c7a8.jpg" alt="CMOS Analog Circuit"/>
+                    <a href="src/images/certs/UC-f9932a33-81a1-4412-b7fe-16c4bdb0c7a8.jpg" data-lightbox="gallery" data-title="JAN 2021 - CMOS Analog Circuit Design">
+                        <img class="cert-image" src="src/images/certs/UC-f9932a33-81a1-4412-b7fe-16c4bdb0c7a8.jpg" alt="CMOS Analog Circuit"/>
+                    </a>
                     <hr/>
                     <h3>JAN 2021 - CMOS Analog Circuit Design</h3>
                 </div>
                 <div class="certCard">
-                    <img class="cert-image" src="src/images/certs/UC-6b3c932d-63a9-44d2-aad1-41ebbe7d66ba.jpg" alt="Basic Electricity and Electronics"/>
+                    <a href="src/images/certs/UC-6b3c932d-63a9-44d2-aad1-41ebbe7d66ba.jpg" data-lightbox="gallery" data-title="JAN 2021 - The Complete Basic Electricity & Electronics Course">
+                        <img class="cert-image" src="src/images/certs/UC-6b3c932d-63a9-44d2-aad1-41ebbe7d66ba.jpg" alt="Basic Electricity and Electronics"/>
+                    </a>
                     <hr/>
                     <h3>JAN 2021 - The Complete Basic Electricity & Electronics Course</h3>
                 </div>
                 <div class="certCard">
-                    <img class="cert-image" src="src/images/certs/UC-1576543a-00a7-44c8-94cd-06dcef95be35.jpg" alt="Electronics for electrical power"/>
+                    <a href="src/images/certs/UC-1576543a-00a7-44c8-94cd-06dcef95be35.jpg" data-lightbox="gallery" data-title="JAN 2021 - Ultimate Power Electronics for Electrical Power Engineering">
+                        <img class="cert-image" src="src/images/certs/UC-1576543a-00a7-44c8-94cd-06dcef95be35.jpg" alt="Electronics for electrical power"/>
+                    </a>
                     <hr/>
                     <h3>JAN 2021 - Ultimate Power Electronics for Electrical Power Engineering</h3>
                 </div>
                 <div class="certCard">
-                    <img class="cert-image" src="src/images/certs/UC-57e9269c-32e5-48c5-9101-7b9a1d2b1b02.jpg" alt="DSP with Matlab"/>
+                    <a href="src/images/certs/UC-57e9269c-32e5-48c5-9101-7b9a1d2b1b02.jpg" data-lightbox="gallery" data-title="DEC 2020 - Digital Signal Processing with Matlab">
+                        <img class="cert-image" src="src/images/certs/UC-57e9269c-32e5-48c5-9101-7b9a1d2b1b02.jpg" alt="DSP with Matlab"/>
+                    </a>
                     <hr/>
                     <h3>DEC 2020 - Digital Signal Processing with Matlab</h3>
                 </div>
                 <div class="certCard">
-                    <img class="cert-image" src="src/images/certs/UC-de848a55-4d2c-42cc-84ff-b3d7f5faefd3.jpg" alt="Verilog Assertions"/>
+                    <a href="src/images/certs/UC-de848a55-4d2c-42cc-84ff-b3d7f5faefd3.jpg" data-lightbox="gallery" data-title="APR 2010 - System Verilog Assertions & Functional Coverage from scratch">
+                        <img class="cert-image" src="src/images/certs/UC-de848a55-4d2c-42cc-84ff-b3d7f5faefd3.jpg" alt="Verilog Assertions"/>
+                    </a>
                     <hr/>
                     <h3>APR 2010 - System Verilog Assertions & Functional Coverage from scratch</h3>
                 </div>
@@ -188,19 +211,49 @@
             <h3>Personal Development</h3>
             <div class="cert-container">
                 <div class="certCard">
-                    <img class="cert-image" src="src/images/certs/UC-909d9a04-5b56-4132-97c2-99d13c6e87f7.jpg" alt="Project One image"/>
+                    <a href="src/images/certs/UC-909d9a04-5b56-4132-97c2-99d13c6e87f7.jpg" data-lightbox="gallery2" data-title="APR 2022 - English Grammar Launch: Upgrade your speaking and listening">
+                        <img class="cert-image" src="src/images/certs/UC-909d9a04-5b56-4132-97c2-99d13c6e87f7.jpg" alt="English Grammar"/>
+                    </a>
                     <hr/>
                     <h3>APR 2022 - English Grammar Launch: Upgrade your speaking and listening</h3>
                 </div>
                 <div class="certCard">
-                    <img class="cert-image" src="src/images/certs/UC-94199fd6-41a1-431a-9ad2-c9a5f7cc9e05.jpg" alt="Project One image"/>
+                    <a href="src/images/certs/UC-94199fd6-41a1-431a-9ad2-c9a5f7cc9e05.jpg" data-lightbox="gallery2" data-title="MAR 2022 - Business Model Innovation: Differentiate & Grow Your Company">
+                        <img class="cert-image" src="src/images/certs/UC-94199fd6-41a1-431a-9ad2-c9a5f7cc9e05.jpg" alt="Business Model Innovation"/>
+                    </a>
                     <hr/>
                     <h3>MAR 2022 - Business Model Innovation: Differentiate & Grow Your Company.</h3>
                 </div>
                 <div class="certCard">
-                    <img class="cert-image" src="src/images/certs/UC-39db2afb-6733-4db7-bd94-9c9c25bd4a31.jpg" alt="Project One image"/>
+                    <a href="src/images/certs/UC-39db2afb-6733-4db7-bd94-9c9c25bd4a31.jpg" data-lightbox="gallery2" data-title="JAN 2021 - Tech Writers Master Class">
+                        <img class="cert-image" src="src/images/certs/UC-39db2afb-6733-4db7-bd94-9c9c25bd4a31.jpg" alt="Writers Master Class"/>
+                    </a>
                     <hr/>
                     <h3>JAN 2021 - Tech Writers Master Class</h3>
+                </div>
+            </div>
+            <p>ITESO COURSES</p>
+            <div class="cert-container">
+                <div class="certCard">
+                    <a href="src/images/certs/ITESO-PCBs.jpg" data-lightbox="gallery3" data-title="AGO 2021 - Application of CAD design techniques for multilayer layout, schematic and library creation">
+                        <img class="cert-image" src="src/images/certs/ITESO-PCBs.jpg" alt="ITESO: CAD design"/>
+                    </a>
+                    <hr/>
+                    <h3>AGO 2021 - Application of CAD design techniques for multilayer layout, schematic and library creation</h3>
+                </div>
+                <div class="certCard">
+                    <a href="src/images/certs/ITESO-DSP.jpg" data-lightbox="gallery3" data-title="NOV 2020 - C Principles for Handling DSP Devices">
+                        <img class="cert-image" src="src/images/certs/ITESO-DSP.jpg" alt="ITESO: C for DSP Devices"/>
+                    </a>
+                    <hr/>
+                    <h3>NOV 2020 - C Principles for Handling DSP Devices</h3>
+                </div>
+                <div class="certCard">
+                    <a href="src/images/certs/ITESO-VERILOG-FPGA.jpg" data-lightbox="gallery3" data-title="OCT 2020 - Digital systems design using Verilog in FPGA">
+                        <img class="cert-image" src="src/images/certs/ITESO-VERILOG-FPGA.jpg" alt="ITESO: Verilog in FPGA"/>
+                    </a>
+                    <hr/>
+                    <h3>OCT 2020 - Digital systems design using Verilog in FPGA</h3>
                 </div>
             </div>
         </section>
@@ -211,7 +264,7 @@
 
 
         
-        <script src="src/app.js"></script>
+        <script src="src/js/app.js"></script>
     </body>
 
 </html>

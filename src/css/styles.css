@@ -161,6 +161,8 @@ a{
 
 }
 .cert-container{
+    margin-left: 20px;
+    margin-right: 20px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -168,11 +170,26 @@ a{
 .certCard {
     width: 300px;
     height: 300px;
-    box-shadow: 5px 5px 20px gray;
     margin: 10px;
     padding: 10px;
-
 }
 .cert-image{
     max-width: 250px;
+}
+
+.certCard a {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.cert-container .certCard img{
+    transition: all .2s ease-in-out;
+}
+.cert-container:hover .certCard img{
+    opacity: .6;
+    transform: scale(0.85);
+}
+.cert-container .certCard img:hover{
+    opacity: 1;
+    transform: rotate(2deg);
+    box-shadow: 0 0 7px rgba(0,0, 0, 0.5);
 }
