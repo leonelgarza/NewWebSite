@@ -112,8 +112,11 @@ p{
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding-bottom: 50px;
 }
-
+#experience, #crtificates{
+    background-color: lightgray;
+}
 .portrail {
     width: 300px;
     border-radius: 150px;
@@ -164,7 +167,7 @@ a{
     box-shadow: 5px 5px 20px gray;
     margin: 10px;
     padding: 10px;
-
+    background-color: white;
 }
 .cert-container{
     margin-left: 20px;
