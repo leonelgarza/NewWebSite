@@ -1,8 +1,8 @@
 {
-  "name": "y",
+  "name": "webleo2",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/leonelgarza/NewWebSite.git"
