@@ -3,11 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/apps.js",
+  "scripts": {
+    "start": "node src/apps.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/leonelgarza/NewWebSite.git"
   },
   "author": "",
   "license": "ISC",
-  "homepage": "https://github.com/leonelgarza/NewWebSite#readme"
+  "homepage": "https://github.com/leonelgarza/NewWebSite#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "jquery": "^3.6.0"
+  }
 }
